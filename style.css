@@ -1,0 +1,44 @@
+ 
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 200px auto;
+  padding: 200px;
+  max-width: auto;
+  background: #14afca;
+  box-shadow: 4px 4px 12px #501616;
+  color: #e90d0d;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.photo {
+  width: 300px;
+  height: 300px;
+  border-radius: 30%;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content>section {
+  margin: 20px;
+}
+
+.color-blue {
+  color: #4425e8;
+}
+
+.hr {
+  margin-top: 20px;
+  border-top: 1px solid #dedede;
+}
